@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>intro-roushanpedia</title>
+    <!-- <link rel="stylesheet" href="new1.css"> -->
+    <link rel="stylesheet" href="try.css">
 </head>
 
 <body>
@@ -23,7 +25,7 @@
     <main>
 
         <!-- <div></div> <span></span> -->
-        <h1>MY FIRST WEB PAGE </h1>
+        <h1> <b> MY FIRST WEB PAGE </b></h1>
         <hr>
         <h2>CREATED BY ROUSHAN SHAH</h2>
 
@@ -53,7 +55,7 @@
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2018.jpg/330px-Cristiano_Ronaldo_2018.jpg"
                             alt="ronaldo image">
                     </p>
-                    <p>Cristiano <a href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo">Ronaldo </a> dos Santos
+                    <p>  <span class="tag">Cristiano</span>  <a href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo">Ronaldo </a> dos Santos
                         Aveiro GOIH ComM (Portuguese pronunciation: [kɾiʃˈtjɐnu ʁɔˈnaɫdu];
                         born 5 February 1985) is a Portuguese professional footballer who plays as a forward for Premier
                         League club Manchester United and captains the Portugal national team. Often considered the best
@@ -64,8 +66,8 @@
                         for most appearances (181), most goals (140) and assists (42) in the Champions League, most
                         goals in the European Championship (14), most international goals by a male player (115), and
                         most international appearances by a European male (184). He is one of the few players to have
-                        made over 1,100 professional career appearances, and has scored over 800 official senior career
-                        goals for club and country.</p>
+                        made over 1,100 professional career appearances, and <span class="tag">has scored over 800 official senior career
+                            goals for club and country.</span> </p>
 
                     <ul>
                         <li>jeep</li>
@@ -99,39 +101,68 @@
 
         <h3>TABLE CONCEPT APLICATION </h3>
         <table border="1">
-            <tr>
-                <th>NAME</th>
-                <th> AGE</th>
-                <th>PERCENTAGE IN 10TH CLASS</th>
-                <th>PERCENTAGE IN 12TH CLASS</th>
-                <th>HOMETOWN</th>
-            </tr>
-        <tr>
-            <td>roushan</td>
-            <td>19</td>
-            <td>94.2%</td>
-            <td>92.2%</td>
-            <td>bihar</td>
-        </tr>
-        <tr>
-            <td>athrv</td>
-            <td>19</td>
-            <td>88%</td>
-            <td>92.8%</td>
-            <td>madhya pradhesh</td>
-        </tr>
-        <tr>
-            <td>anubha</td>
-            <td>19</td>
-            <td>90%</td>
-            <td>90%</td>
-            <td>assam</td>
-        </tr>
-    </table>
+            <thead>
+                <tr>
+                    <th>NAME</th>
+                    <th> AGE</th>
+                    <th>PERCENTAGE IN 10TH CLASS</th>
+                    <th>PERCENTAGE IN 12TH CLASS</th>
+                    <th>HOMETOWN</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>roushan</td>
+                    <td>19</td>
+                    <td>94.2%</td>
+                    <td>92.2%</td>
+                    <td>bihar</td>
+                </tr>
+                <tr>
+                    <td>athrv</td>
+                    <td>19</td>
+                    <td>88%</td>
+                    <td>92.8%</td>
+                    <td>madhya pradhesh</td>
+                </tr>
+                <tr>
+                    <td>anubha</td>
+                    <td>19</td>
+                    <td>90%</td>
+                    <td>90%</td>
+                    <td>assam</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+        <h3>form concept apllication</h3>
+        <form action="/tacos">
+            <p>
+                <label for="username">enter your username</label>
+                <input type="text" placeholder="username" id="username">
+            </p>
+            <p>
+                <label for="password">enter your password</label>
+                <input type="password" placeholder="password" id="password">
+            </p>
+            <p>
+                <label for="email1">enter your email</label>
+                <input type="email" placeholder="email" id="email1">
+            </p>
+            <input type="color">
+
+            <button>submit</button>
+        </form>
 
 
     </main>
 
+
+
+
+    <hr>
     <footer>
         <p>this is my website .............</p>
         <ul>
